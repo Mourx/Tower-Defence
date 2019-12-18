@@ -1,0 +1,54 @@
+﻿  main.cpp
+LINK : error LNK2001: unresolved external symbol _WinMain
+main.obj : error LNK2019: unresolved external symbol __imp___invalid_parameter referenced in function "void __cdecl std::_Deallocate(void *,unsigned int,unsigned int)" (?_Deallocate@std@@YAXPAXII@Z)
+main.obj : error LNK2019: unresolved external symbol __imp___CrtDbgReportW referenced in function "void __cdecl std::_Deallocate(void *,unsigned int,unsigned int)" (?_Deallocate@std@@YAXPAXII@Z)
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QAE@III@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::Window::close(void)" (?close@Window@sf@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sf::Window::isOpen(void)const " (?isOpen@Window@sf@@QBE_NXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::Window::display(void)" (?display@Window@sf@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QAE@EEEE@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sf::Shape::~Shape(void)" (??1Shape@sf@@UAE@XZ) referenced in function "public: virtual __thiscall sf::CircleShape::~CircleShape(void)" (??1CircleShape@sf@@UAE@XZ)
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (?setFillColor@Shape@sf@@QAEXABVColor@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::CircleShape::CircleShape(float,unsigned int)" (??0CircleShape@sf@@QAE@MI@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QAEXABVColor@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol ___CxxFrameHandler3 referenced in function __ehhandler$??0locale@std@@QAE@XZ
+main.obj : error LNK2019: unresolved external symbol _memset referenced in function "public: void __thiscall sf::CircleShape::__autoclassinit2(unsigned int)" (?__autoclassinit2@CircleShape@sf@@QAEXI@Z)
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+main.obj : error LNK2001: unresolved external symbol "public: static class sf::Color const sf::Color::Green" (?Green@Color@sf@@2V12@B)
+MSVCRTD.lib(delete_scalar.obj) : error LNK2019: unresolved external symbol __free_dbg referenced in function "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)
+MSVCRTD.lib(_init_.obj) : error LNK2019: unresolved external symbol __CrtDbgReport referenced in function __CRT_RTC_INIT
+MSVCRTD.lib(_init_.obj) : error LNK2019: unresolved external symbol __CrtDbgReportW referenced in function __CRT_RTC_INITW
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp__IsDebuggerPresent@0 referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp__RaiseException@16 referenced in function "int __cdecl DebuggerProbe(unsigned long)" (?DebuggerProbe@@YAHK@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp__MultiByteToWideChar@24 referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol __imp__WideCharToMultiByte@32 referenced in function "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z)
+MSVCRTD.lib(_error_.obj) : error LNK2019: unresolved external symbol ___stdio_common_vsprintf_s referenced in function __vsprintf_s_l
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp__UnhandledExceptionFilter@4 referenced in function ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp__SetUnhandledExceptionFilter@4 referenced in function ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp__GetCurrentProcess@0 referenced in function ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol __imp__TerminateProcess@8 referenced in function ___raise_securityfailure
+MSVCRTD.lib(gs_report.obj) : error LNK2019: unresolved external symbol _IsProcessorFeaturePresent@4 referenced in function ___report_gsfailure
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __wmakepath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __wsplitpath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol _wcscpy_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned int)" (?GetPdbDllPathFromFilePath@@YAHPB_WPA_WI@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__GetLastError@0 referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__HeapAlloc@12 referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__HeapFree@12 referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__GetProcessHeap@0 referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__VirtualQuery@12 referenced in function "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__FreeLibrary@4 referenced in function "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol __imp__GetProcAddress@8 referenced in function "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol ___vcrt_GetModuleFileNameW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol ___vcrt_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_pdblkup_.obj) : error LNK2019: unresolved external symbol ___vcrt_LoadLibraryExW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ)
+MSVCRTD.lib(_chandler4gs_.obj) : error LNK2019: unresolved external symbol __except_handler4_common referenced in function __except_handler4
+C:\Users\Joel\Desktop\SFML-2.4.2\lib\sfml-graphics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Joel\Desktop\SFML-2.4.2\lib\sfml-main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Joel\Desktop\SFML-2.4.2\lib\sfml-window.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Joel\Desktop\SFML-2.4.2\lib\sfml-system.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\joel\documents\visual studio 2015\Projects\GameAttempt\Debug\GameAttempt.exe : fatal error LNK1120: 48 unresolved externals

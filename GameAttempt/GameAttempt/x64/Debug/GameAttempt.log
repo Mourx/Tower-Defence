@@ -1,0 +1,23 @@
+﻿  main.cpp
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(171): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(175): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(179): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(183): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(187): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(191): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(195): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(199): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(203): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(207): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(211): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(215): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(219): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(279): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(289): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(476): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(626): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(687): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  minion.cpp
+  Generating Code...
+c:\users\joel\documents\towerdef\tower-defence\gameattempt\gameattempt\main.cpp(257): warning C4715: 'getAvailableMissile': not all control paths return a value
+  GameAttempt.vcxproj -> C:\Users\Joel\Documents\TowerDef\Tower-Defence\GameAttempt\x64\Debug\GameAttempt.exe
